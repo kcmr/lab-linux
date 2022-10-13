@@ -19,7 +19,7 @@ $ mv foo/dummy/file2.txt foo/empty
 
 ### Ejercicio 3
 
-Archivo `writefiles.sh`:
+Archivo `ejercicio3.sh`:
 
 ```sh
 #!/usr/bin/env bash
