@@ -4,7 +4,7 @@
 
 ### Ejercicio 1
 
-```
+```sh
 $ mkdir -p foo/{dummy,empty}
 $ touch foo/dummy/file{1,2}.txt
 $ echo 'me encanta la bash!!' > foo/dummy/file1.txt
@@ -12,7 +12,7 @@ $ echo 'me encanta la bash!!' > foo/dummy/file1.txt
 
 ### Ejercicio 2
 
-```
+```sh
 $ cp foo/dummy/file1.txt foo/dummy/file2.txt
 $ mv foo/dummy/file2.txt foo/empty
 ```
