@@ -35,3 +35,23 @@ Ejemplos de ejecución:
 ./ejercicio4.sh domain
 ```
 
+### Ejercicio 5
+
+Archivo [ejercicio5.sh](ejercicio5.sh)
+
+Ejemplos de ejecución:
+
+```sh
+# Validación de parámetros
+./ejercicio5.sh
+
+# Sin resultados
+./ejercicio5.sh https://example.org nada
+
+# Un resultado
+./ejercicio5.sh https://example.org information
+
+# Varios resultados
+./ejercicio5.sh https://example.org domain
+```
+
