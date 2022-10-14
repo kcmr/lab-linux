@@ -19,20 +19,19 @@ $ mv foo/dummy/file2.txt foo/empty
 
 ### Ejercicio 3
 
-Archivo `ejercicio3.sh`:
+Archivo [ejercicio3.sh](ejercicio3.sh)
+
+### Ejercicio 4
+
+Archivo [ejercicio4.sh](ejercicio4.sh)
+
+Ejemplos de ejecución:
 
 ```sh
-#!/usr/bin/env bash
+# Sin resultados
+./ejercicio4.sh nada
 
-mkdir -p foo/{dummy,empty}
-touch foo/dummy/file{1,2}.txt
-
-default_text="Que me gusta la bash!!!!"
-text=$([ $# -gt 0 ] && echo $1 || echo $default_text)
-
-echo $text > foo/dummy/file1.txt
-
-cp foo/dummy/file1.txt foo/dummy/file2.txt
-mv foo/dummy/file2.txt foo/empty
+# Con resultados
+./ejercicio4.sh domain
 ```
 
